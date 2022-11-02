@@ -2,7 +2,7 @@ import pickle
 import numpy as np
 import streamlit as st
 
-model = pickle.load(open('../saved_model/medical_insurance_model.sav', 'rb'))
+model = pickle.load(open('medical_insurance_cost_prediction/saved_model/medical_insurance_model.sav', 'rb'))
 
 # options
 Gender = {0: "Female", 1: "Male"}
